@@ -18,9 +18,9 @@ public class FunctionBlockRenderer extends ShapeDecorator {
 		int xStep = r.width / 6;
 		int yStep = r.height / 4;
 
-		int xPoints[] = { x0, x0 + 6 * xStep, x0 + 6 * xStep, x0 + 5 * xStep,
-				x0 + 5 * xStep, x0 + 6 * xStep, x0 + 6 * xStep, x0, x0,
-				x0 + xStep, x0 + xStep, x0 };
+		int xPoints[] = { x0, x0 + 6 * xStep, x0 + 6 * xStep, x0 + 9 * xStep / 2,
+				x0 + 9 * xStep / 2, x0 + 6 * xStep, x0 + 6 * xStep, x0, x0,
+				x0 + 3 * xStep / 2, x0 + 3 * xStep / 2, x0 };
 		int yPoints[] = { y0, y0, y0 + yStep, y0 + yStep, y0 + 2 * yStep,
 				y0 + 2 * yStep, y0 + 4 * yStep, y0 + 4 * yStep, y0 + 2 * yStep,
 				y0 + 2 * yStep, y0 + yStep, y0 + yStep };

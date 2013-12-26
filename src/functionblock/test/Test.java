@@ -9,6 +9,9 @@ public class Test {
 		System.out.println(new File("test1.txt").exists());
 		System.out.println(new File("src/functionblock/icons/functionblockdiagram.svg").exists());
 		System.out.println(new ImageIconProxy(Test.class, "src/functionblock/icons/functionblock.gif", "") == null);
+
+        com.nomagic.uml2.ext.magicdraw.auxiliaryconstructs.mdmodels.Model model;
+
 	}
 
 }

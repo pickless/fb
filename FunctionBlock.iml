@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://D:/Workspace/Project/fb/lib/activation.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/antlr_2.7.6.1.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/batik.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/CaliberRMSDK65.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/cmof14.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/commons-codec-1.3.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/commons-collections-3.1.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/commons-httpclient-3.1.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/commons-lang-2.1.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/commons-logging-1.0.4.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/cvsclient.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/fl_common.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/javax_jmi-1_0-fr.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jaxb-api.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jaxb-impl.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jaxb-libs.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jax-qname.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jhall.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-action.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-common.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-components.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-dock.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-editor.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-grids.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jide-shortcut.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jimi.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/jmyspell-core-1.0.0-beta-2.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/launcher.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/log4j-1.2.15.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/md.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/md_api.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/md_common.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/md_common_api.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/md_commontw.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/md_commontw_api.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/namespace.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/oro-2.0.8.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/patch.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/relaxngDatatype.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/tw_common.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/tw_console.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/tw_console_api.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/uml2.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/velocity-dep-1.5.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/xalan.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/xercesImpl.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/xfc.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/xml-apis.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/xsdlib.jar" />
+    <libelement value="file://D:/Workspace/Project/fb/lib/y.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="library" name="MagicDraw" level="project" />
+  </component>
+</module>
+

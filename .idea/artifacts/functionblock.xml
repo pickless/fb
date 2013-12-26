@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="functionblock">
+    <output-path>$PROJECT_DIR$/classes/artifacts/functionblock</output-path>
+    <root id="archive" name="functionblock.jar">
+      <element id="module-output" name="FunctionBlock" />
+    </root>
+  </artifact>
+</component>

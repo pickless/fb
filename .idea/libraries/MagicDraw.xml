@@ -1,0 +1,61 @@
+<component name="libraryTable">
+  <library name="MagicDraw">
+    <CLASSES>
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/activation.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/antlr_2.7.6.1.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/batik.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/CaliberRMSDK65.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/cmof14.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/commons-codec-1.3.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/commons-httpclient-3.1.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/commons-lang-2.1.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/cvsclient.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/fl_common.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/javax_jmi-1_0-fr.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jax-qname.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jaxb-api.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jaxb-impl.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jaxb-libs.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jhall.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-action.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-common.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-components.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-dock.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-editor.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-grids.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jide-shortcut.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jimi.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/jmyspell-core-1.0.0-beta-2.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/launcher.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/md.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/md_api.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/md_common.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/md_common_api.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/md_commontw.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/md_commontw_api.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/namespace.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/oro-2.0.8.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/relaxngDatatype.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/tw_common.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/tw_console.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/tw_console_api.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/uml2.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/velocity-dep-1.5.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/xalan.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/xercesImpl.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/xfc.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/xml-apis.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/xsdlib.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MagicDraw UML 16.5/lib/y.jar!/" />
+      <root url="file://C:/Program Files (x86)/MagicDraw UML 16.5/lib/graphics" />
+      <root url="file://C:/Program Files (x86)/MagicDraw UML 16.5/lib/webservice" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/Program Files (x86)/MagicDraw UML 16.5/lib/graphics" recursive="false" />
+    <jarDirectory url="file://C:/Program Files (x86)/MagicDraw UML 16.5/lib/webservice" recursive="false" />
+  </library>
+</component>
