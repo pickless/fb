@@ -52,6 +52,19 @@ public final class FunctionBlockHelper {
 				}
 				
 				Profile profile = StereotypesHelper.getProfile(project, FUNCTION_BLOCK_PROFILE);
+
+                if (StereotypesHelper.getStereotype(project, FUNCTION_BLOCK_DIAGRAM) == null) {
+                    StereotypesHelper.createStereotype(profile, FUNCTION_BLOCK_DIAGRAM, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Diagram")));
+                }
+
+                if (StereotypesHelper.getStereotype(project, ECC_DIAGRAM) == null) {
+                    StereotypesHelper.createStereotype(profile, ECC_DIAGRAM, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Diagram")));
+                }
+
+                if (StereotypesHelper.getStereotype(project, SIFB_SEQUENCE_DIAGRAM) == null) {
+                    StereotypesHelper.createStereotype(profile, SIFB_SEQUENCE_DIAGRAM, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Diagram")));
+                }
+
 				if (StereotypesHelper.getStereotype(project, BASIC_FUNCTION_BLOCK) == null) {
 					StereotypesHelper.createStereotype(profile, BASIC_FUNCTION_BLOCK, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Class")));
 				}
@@ -59,7 +72,11 @@ public final class FunctionBlockHelper {
 				if (StereotypesHelper.getStereotype(project, COMPOSITE_FUNCTION_BLOCK) == null) {
 					StereotypesHelper.createStereotype(profile, COMPOSITE_FUNCTION_BLOCK, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Class")));					
 				}
-				
+
+                if (StereotypesHelper.getStereotype(project, SERVICE_INTERFACE_FUNCTION_BLOCK) == null) {
+                    StereotypesHelper.createStereotype(profile, SERVICE_INTERFACE_FUNCTION_BLOCK, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Class")));
+                }
+
 				if (StereotypesHelper.getStereotype(project, EVENT_IN_PORT) == null) {
 					StereotypesHelper.createStereotype(profile, EVENT_IN_PORT, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Port")));
 				}
@@ -87,7 +104,11 @@ public final class FunctionBlockHelper {
 				if (StereotypesHelper.getStereotype(project, ECC_TRANSITION) == null) {
 					StereotypesHelper.createStereotype(profile, ECC_TRANSITION, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Transition")));
 				}
-				
+
+                if (StereotypesHelper.getStereotype(project, ECC_CONDITION) == null) {
+                    StereotypesHelper.createStereotype(profile, ECC_CONDITION, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Constraint")));
+                }
+
 				if (StereotypesHelper.getStereotype(project, ALGORITHM) == null) {
 					StereotypesHelper.createStereotype(profile, ALGORITHM, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "State")));
 				}

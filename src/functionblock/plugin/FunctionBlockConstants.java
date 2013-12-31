@@ -60,8 +60,13 @@ public final class FunctionBlockConstants {
 	public final class StereotypesConstants {
 		public final static String FUNCTION_BLOCK_PROFILE = "Function Block Profile";
 
+        public final static String FUNCTION_BLOCK_DIAGRAM = "Function Block Diagram";
+        public final static String ECC_DIAGRAM = "ECC Diagram";
+        public final static String SIFB_SEQUENCE_DIAGRAM = "SIFB Sequence Diagram";
+
 		public final static String BASIC_FUNCTION_BLOCK = "Basic Function Block";
 		public final static String COMPOSITE_FUNCTION_BLOCK = "Composite Function Block";
+        public final static String SERVICE_INTERFACE_FUNCTION_BLOCK = "Service Interface Function Block";
 		
 		public final static String EVENT_IN_PORT = "Event Input";
 		public final static String EVENT_OUT_PORT = "Event Output";
@@ -71,7 +76,7 @@ public final class FunctionBlockConstants {
 		public final static String ECC_INITIAL_STATE = "ECCInitialState";
 		public final static String ECC_STATE = "ECState";
 		public final static String ECC_TRANSITION = "ECTransition";
-
+        public final static String ECC_CONDITION = "ECCondition";
 		public final static String ALGORITHM = "Algorithm";
 		public final static String EVENT_OUTPUT = "Event Output";
 	}
