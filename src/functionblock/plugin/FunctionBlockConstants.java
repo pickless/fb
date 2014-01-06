@@ -1,6 +1,10 @@
 package functionblock.plugin;
 
 public final class FunctionBlockConstants {
+    public final class LoggerConstants {
+        public final static String LOGGER_FILE_NAME = "/function block.log";
+    }
+
 	public final class DiagramsConstants {
 		public final static String FUNCTION_BLOCK_DIAGRAM_NAME = "Function Block Diagram";
 		public final static String FUNCTION_BLOCK_DIAGRAM_HUMAN_NAME = "Function Block Diagram";

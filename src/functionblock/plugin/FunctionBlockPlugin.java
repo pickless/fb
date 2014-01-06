@@ -15,7 +15,8 @@ public class FunctionBlockPlugin extends Plugin
 	 * Initializing the plugin.
 	 */
 	public void init()
-	{		
+	{
+        FunctionBlockLogger.regLogger();
 		SymbolRendererManager.getManager().addProvider(new RendererProvider());
 		Application.getInstance().addNewDiagramType(new FunctionBlockDiagramDescriptor());
 		Application.getInstance().addNewDiagramType(new ECCDiagramDescriptor());
