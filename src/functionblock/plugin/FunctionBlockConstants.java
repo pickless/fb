@@ -65,6 +65,7 @@ public final class FunctionBlockConstants {
 		public final static String FUNCTION_BLOCK_PROFILE = "Function Block Profile";
 
         public final static String FUNCTION_BLOCK_DIAGRAM = "Function Block Diagram";
+        public final static String FUNCTION_BLOCK_NETWORK = "FB Network";
         public final static String ECC_DIAGRAM = "ECC Diagram";
         public final static String SIFB_SEQUENCE_DIAGRAM = "SIFB Sequence Diagram";
 

@@ -3,6 +3,7 @@ package functionblock.rendering;
 import com.nomagic.magicdraw.core.Application;
 import com.nomagic.magicdraw.core.Project;
 import com.nomagic.magicdraw.uml.symbols.AbstractSymbolDecoratorProvider;
+import com.nomagic.magicdraw.uml.symbols.DiagramPresentationElement;
 import com.nomagic.magicdraw.uml.symbols.PresentationElement;
 import com.nomagic.magicdraw.uml.symbols.SymbolDecorator;
 import com.nomagic.magicdraw.uml.symbols.paths.DependencyView;
@@ -18,14 +19,20 @@ import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Element;
 
 import functionblock.diagram.ECCDiagramDescriptor;
 import functionblock.diagram.FunctionBlockDiagramDescriptor;
+import functionblock.plugin.FunctionBlockLogger;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import static functionblock.plugin.FunctionBlockLogger.*;
 
 import static functionblock.plugin.FunctionBlockConstants.StereotypesConstants.*;
 
 public class RendererProvider extends AbstractSymbolDecoratorProvider {
-	public RendererProvider() {
-		
-	}
-	
+    private Set<Object> objectSet = new HashSet<Object>();
+    private Set<PresentationElement> presentationElements = new HashSet<PresentationElement>();
+    private StringBuilder msg;
+
 	public SymbolDecorator getSymbolDecorator(PresentationElement presentationElement) {
 		Object obj = super.getSymbolDecorator(presentationElement);
 		if (obj != null) {
@@ -34,20 +41,23 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
 		
 		Project project = Application.getInstance().getProject();
 		Element element = presentationElement.getActualElement();
-		
+
+
         if (presentationElement instanceof HeaderShapeView/*ClassView*/) {
            	if (StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, BASIC_FUNCTION_BLOCK)) || 
            			StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, COMPOSITE_FUNCTION_BLOCK))) {
+
+                if (!presentationElements.contains(presentationElement)) {
+                    objectSet.clear();
+                    msg = new StringBuilder("\n\r");
+                    logTrace(presentationElement, 1);
+                    log(msg.toString());
+                    presentationElements.add(presentationElement);
+                }
+
            		obj = functionBlockRender;
-           		addToCash(presentationElement, ((SymbolDecorator) (obj)));                      	
+           		addToCash(presentationElement, ((SymbolDecorator) (obj)));
            	}
-        }
-        
-        if (presentationElement instanceof PartView) {
-        	if (StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, COMPOSITE_FUNCTION_BLOCK))) {
-        		obj = functionBlockRender;
-        		addToCash(presentationElement, ((SymbolDecorator) (obj)));
-        	}
         }
                 
         if (presentationElement instanceof DependencyView) {
@@ -82,7 +92,16 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
         }
         return ((SymbolDecorator) (obj));
 	}
-	
+
+    public void logTrace(PresentationElement presentationElement, int level) {
+        if (objectSet.contains(presentationElement)) {
+            return;
+        }
+        objectSet.add(presentationElement);
+        msg.append("LEVEL: " + level + " " + /*presentationElement.getHumanName() +*/ "\n\r");
+        logTrace(presentationElement.getParent(), level + 1);
+    }
+
 	private final ShapeDecorator functionBlockRender = new FunctionBlockRenderer();
 	private final ShapeDecorator portRender = new PortRenderer();
 	private final ShapeDecorator initialStateRender = new InitialStateRender();

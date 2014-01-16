@@ -9,12 +9,14 @@ import com.nomagic.magicdraw.ui.actions.DrawShapeDiagramAction;
 import com.nomagic.magicdraw.uml.DiagramType;
 import com.nomagic.magicdraw.uml.symbols.PresentationElement;
 import com.nomagic.uml2.ext.jmi.helpers.StereotypesHelper;
+import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Diagram;
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Element;
 import com.nomagic.uml2.ext.magicdraw.compositestructures.mdports.Port;
 import com.nomagic.uml2.impl.ElementsFactory;
 
 import functionblock.plugin.FunctionBlockConstants;
 import functionblock.plugin.FunctionBlockHelper;
+import functionblock.plugin.FunctionBlockLogger;
 
 public class CompositeFunctionBlockAction extends DrawShapeDiagramAction {
 
@@ -50,8 +52,9 @@ public class CompositeFunctionBlockAction extends DrawShapeDiagramAction {
 	private void addCompositeStructureDiagram(com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class functionblock) {
 		boolean sessionFlag = FunctionBlockHelper.createSession();
 		
-		try {			
-			ModelElementsManager.getInstance().createDiagram(DiagramType.UML_COMPOSITE_STRUCTURE_DIAGRAM, functionblock);
+		try {
+            Diagram fbNetwork = ModelElementsManager.getInstance().createDiagram(DiagramType.UML_COMPOSITE_STRUCTURE_DIAGRAM, functionblock);
+            StereotypesHelper.addStereotypeByString(fbNetwork, FunctionBlockConstants.StereotypesConstants.FUNCTION_BLOCK_NETWORK);
 		} catch (Exception ex) {
 			JOptionPane.showMessageDialog(null, "CompositeFunctionBlockAction.addCompositeStructureDiagram(Class) " + ex);
 		}

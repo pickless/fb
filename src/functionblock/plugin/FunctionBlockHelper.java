@@ -7,6 +7,7 @@ import com.nomagic.magicdraw.core.Project;
 import com.nomagic.magicdraw.core.project.ProjectEventListener;
 import com.nomagic.magicdraw.openapi.uml.ModelElementsManager;
 import com.nomagic.magicdraw.openapi.uml.SessionManager;
+import com.nomagic.magicdraw.properties.StereotypePropertyCreatorConfig;
 import com.nomagic.uml2.ext.jmi.helpers.StereotypesHelper;
 import com.nomagic.uml2.ext.magicdraw.mdprofiles.Profile;
 
@@ -59,6 +60,10 @@ public final class FunctionBlockHelper {
 
                 if (StereotypesHelper.getStereotype(project, ECC_DIAGRAM) == null) {
                     StereotypesHelper.createStereotype(profile, ECC_DIAGRAM, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Diagram")));
+                }
+
+                if (StereotypesHelper.getStereotype(project, FUNCTION_BLOCK_NETWORK) == null) {
+                    StereotypesHelper.createStereotype(profile, FUNCTION_BLOCK_NETWORK, Arrays.asList(StereotypesHelper.getMetaClassByName(project, "Diagram")));
                 }
 
                 if (StereotypesHelper.getStereotype(project, SIFB_SEQUENCE_DIAGRAM) == null) {

@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8be8bb1-975a-43fe-9ffc-138d039f18bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java" afterPath="$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" afterPath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java" afterPath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java" afterPath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" afterPath="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FunctionBlock.iws" />
@@ -74,11 +75,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FunctionBlockConstants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
+      <file leaf-file-name="RendererProvider.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="76" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1767">
-              <folding />
+            <state line="105" column="113" selection-start="5077" selection-end="5077" vertical-scroll-proportion="0.88161993" vertical-offset="1146" max-vertical-offset="2223">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,25 +89,7 @@
       <file leaf-file-name="FunctionBlockHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="71" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2299">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctionBlockPlugin.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="51" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.63136035" vertical-offset="0" max-vertical-offset="963">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RendererProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="78" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1501">
+            <state line="64" column="129" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="2584">
               <folding />
             </state>
           </provider>
@@ -128,10 +113,12 @@
         <option value="$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java" />
         <option value="$PROJECT_DIR$/src/functionblock/diagram/ECCDiagramActions.java" />
         <option value="$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java" />
-        <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java" />
-        <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" />
         <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockLogger.java" />
         <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java" />
+        <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" />
+        <option value="$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java" />
+        <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java" />
+        <option value="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" />
       </list>
     </option>
   </component>
@@ -174,8 +161,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,6 +295,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +307,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
@@ -345,6 +332,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="980" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="functionblock" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -577,15 +571,26 @@
       <workItem from="1388349128803" duration="157000" />
       <workItem from="1388350477510" duration="21000" />
       <workItem from="1388470964954" duration="1735000" />
-      <workItem from="1388991097139" duration="4163000" />
+      <workItem from="1388991097139" duration="4282000" />
+      <workItem from="1388996611229" duration="4794000" />
+      <workItem from="1389073982434" duration="9880000" />
+      <workItem from="1389159847427" duration="10400000" />
+      <workItem from="1389246131766" duration="4750000" />
+      <workItem from="1389336661545" duration="10863000" />
+      <workItem from="1389594711255" duration="3221000" />
+      <workItem from="1389601166441" duration="182000" />
+      <workItem from="1389601872738" duration="6170000" />
+      <workItem from="1389680701897" duration="7314000" />
+      <workItem from="1389697253504" duration="6068000" />
+      <workItem from="1389850405657" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27441000" />
+    <option name="totallyTimeSpent" value="92439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -593,7 +598,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -602,7 +606,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -613,6 +616,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -637,6 +642,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="71" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="2489" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="57" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="78" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1862">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="40" selection-start="4031" selection-end="4031" vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="1691">
@@ -646,9 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2299">
-          <folding />
-        </state>
+        <state line="34" column="51" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2299" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
@@ -660,9 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramToolbarConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1026">
-          <folding />
-        </state>
+        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java">
@@ -681,9 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramToolbarConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1026">
-          <folding />
-        </state>
+        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java">
@@ -702,9 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramToolbarConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
-          <folding />
-        </state>
+        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java">
@@ -716,30 +734,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="931">
-          <folding />
-        </state>
+        <state line="32" column="74" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="931" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="931">
-          <folding />
-        </state>
+        <state line="32" column="74" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="931" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="69" selection-start="1166" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1862">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/AlgorithmRender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="494">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="494" />
       </provider>
     </entry>
     <entry file="uml://MODULES/mdl-FunctionBlock">
@@ -780,88 +794,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="71" selection-start="489" selection-end="494" vertical-scroll-proportion="0.20607375" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="751" selection-end="779" vertical-scroll-proportion="0.47396964" vertical-offset="0" max-vertical-offset="1501">
-          <folding />
-        </state>
+        <state line="12" column="71" selection-start="489" selection-end="494" vertical-scroll-proportion="0.20607375" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/DependencyRender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.329718" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="21" column="5" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.329718" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/AlgorithmRender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/DataInPortAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="931">
-          <folding />
-        </state>
+        <state line="32" column="74" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="931" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/EventInPortAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/AlgorithmAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.28850326" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="23" column="42" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.28850326" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/ECCDiagramToolbarConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="57" selection-start="948" selection-end="948" vertical-scroll-proportion="0.35032538" vertical-offset="0" max-vertical-offset="922">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="27" column="57" selection-start="948" selection-end="948" vertical-scroll-proportion="0.35032538" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/DataOutPortAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/DataPortAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="11" column="22" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/EventOutPortAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0824295" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/ECCDiagramDescriptor.java">
@@ -873,23 +856,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/BasicFunctionBlockAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="914" selection-end="914" vertical-scroll-proportion="0.14425163" vertical-offset="0" max-vertical-offset="1672">
-          <folding />
-        </state>
+        <state line="22" column="7" selection-start="914" selection-end="914" vertical-scroll-proportion="0.14425163" vertical-offset="0" max-vertical-offset="1672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/ECCDiagramActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="88" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.39154014" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="29" column="88" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.39154014" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="712" selection-end="712" vertical-scroll-proportion="0.10303687" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
+        <state line="17" column="41" selection-start="712" selection-end="712" vertical-scroll-proportion="0.10303687" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java">
@@ -901,52 +878,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramToolbarConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.32936078" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="78" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1501">
-          <folding />
-        </state>
+        <state line="29" column="67" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.32936078" vertical-offset="0" max-vertical-offset="923" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.6.0_23/src.zip!/java/util/logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="520" column="16" selection-start="22309" selection-end="22309" vertical-scroll-proportion="0.33333334" vertical-offset="9350" max-vertical-offset="27816">
+        <state line="520" column="16" selection-start="22309" selection-end="22309" vertical-scroll-proportion="0.33333334" vertical-offset="9350" max-vertical-offset="27816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="39" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.6116303" vertical-offset="0" max-vertical-offset="963">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="76" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1767">
+        <state line="69" column="84" selection-start="4273" selection-end="4273" vertical-scroll-proportion="0.5264797" vertical-offset="804" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.46728972" vertical-offset="310" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="129" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="2375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.25649014" vertical-offset="0" max-vertical-offset="963">
+        <state line="36" column="26" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.63136035" vertical-offset="0" max-vertical-offset="963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/PresentationElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="185" selection-end="185" vertical-scroll-proportion="0.10520487" vertical-offset="0" max-vertical-offset="10450" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/paths/PathConnector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="89" selection-start="258" selection-end="258" vertical-scroll-proportion="0.10127932" vertical-offset="0" max-vertical-offset="1178" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/shapes/ShapeElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="89" selection-start="259" selection-end="259" vertical-scroll-proportion="0.1027027" vertical-offset="0" max-vertical-offset="4693" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/shapes/ContainerShapeView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="97" selection-start="267" selection-end="267" vertical-scroll-proportion="0.10127932" vertical-offset="0" max-vertical-offset="2812" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/shapes/AbstractHeaderShapeView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="98" selection-start="268" selection-end="268" vertical-scroll-proportion="0.10127932" vertical-offset="0" max-vertical-offset="1634" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/shapes/HeaderShapeView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="98" selection-start="268" selection-end="268" vertical-scroll-proportion="0.1027027" vertical-offset="0" max-vertical-offset="2717" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/md_api.jar!/com/nomagic/magicdraw/uml/symbols/shapes/PartView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="73" selection-start="243" selection-end="243" vertical-scroll-proportion="-3.8" vertical-offset="0" max-vertical-offset="2755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="113" selection-start="5077" selection-end="5077" vertical-scroll-proportion="0.88161993" vertical-offset="1146" max-vertical-offset="2223">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="71" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.0" vertical-offset="817" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="51" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.63136035" vertical-offset="0" max-vertical-offset="963">
-          <folding />
         </state>
       </provider>
     </entry>
