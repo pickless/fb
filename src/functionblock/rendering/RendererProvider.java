@@ -47,13 +47,13 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
            	if (StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, BASIC_FUNCTION_BLOCK)) || 
            			StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, COMPOSITE_FUNCTION_BLOCK))) {
 
-                if (!presentationElements.contains(presentationElement)) {
-                    objectSet.clear();
-                    msg = new StringBuilder("\n\r");
-                    logTrace(presentationElement, 1);
-                    log(msg.toString());
-                    presentationElements.add(presentationElement);
-                }
+//                if (!presentationElements.contains(presentationElement)) {
+//                    objectSet.clear();
+//                    msg = new StringBuilder("\n\r");
+//                    logTrace(presentationElement, 1);
+//                    log(msg.toString());
+//                    presentationElements.add(presentationElement);
+//                }
 
            		obj = functionBlockRender;
            		addToCash(presentationElement, ((SymbolDecorator) (obj)));

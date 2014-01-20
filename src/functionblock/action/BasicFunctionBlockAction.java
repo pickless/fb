@@ -4,6 +4,8 @@ import javax.swing.JOptionPane;
 
 import com.nomagic.magicdraw.core.Application;
 import com.nomagic.magicdraw.openapi.uml.ModelElementsManager;
+import com.nomagic.magicdraw.properties.PropertyID;
+import com.nomagic.magicdraw.properties.PropertyPool;
 import com.nomagic.magicdraw.ui.ImageIconProxy;
 import com.nomagic.magicdraw.ui.actions.DrawShapeDiagramAction;
 import com.nomagic.magicdraw.uml.symbols.PresentationElement;
@@ -52,7 +54,9 @@ public class BasicFunctionBlockAction extends DrawShapeDiagramAction {
 	 * @return created presentation element
 	 */
 	protected PresentationElement createPresentationElement() {
-		PresentationElement presentationElement = super.createPresentationElement();			
+		PresentationElement presentationElement = super.createPresentationElement();
+        presentationElement.addProperty(PropertyPool.getBooleanProperty(PropertyID.SUPPRESS_CLASS_ATTRIBUTES, true,"ATTRIBUTES"));
+        presentationElement.addProperty(PropertyPool.getBooleanProperty(PropertyID.SUPPRESS_CLASS_OPERATIONS, true, "OPERATIONS"));
 		return presentationElement;
 	}
 	

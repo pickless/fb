@@ -25,7 +25,7 @@ public class FunctionBlockRenderer extends ShapeDecorator {
 				y0 + 2 * yStep, y0 + 4 * yStep, y0 + 4 * yStep, y0 + 2 * yStep,
 				y0 + 2 * yStep, y0 + yStep, y0 + yStep };
 		g.drawPolygon(xPoints, yPoints, 12);
-		
+
 		for (PresentationElement pe : presentationelement.getPresentationElements()) {
 			if (pe instanceof ClassHeaderView) {
 				ClassHeaderView classHeaderView = (ClassHeaderView) pe;
