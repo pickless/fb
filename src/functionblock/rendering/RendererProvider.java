@@ -19,18 +19,12 @@ import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Element;
 
 import functionblock.diagram.ECCDiagramDescriptor;
 import functionblock.diagram.FunctionBlockDiagramDescriptor;
-import functionblock.plugin.FunctionBlockLogger;
-
-import java.util.HashSet;
-import java.util.Set;
 
 import static functionblock.plugin.FunctionBlockLogger.*;
 
 import static functionblock.plugin.FunctionBlockConstants.StereotypesConstants.*;
 
 public class RendererProvider extends AbstractSymbolDecoratorProvider {
-    private Set<Object> objectSet = new HashSet<Object>();
-    private Set<PresentationElement> presentationElements = new HashSet<PresentationElement>();
     private StringBuilder msg;
 
 	public SymbolDecorator getSymbolDecorator(PresentationElement presentationElement) {
@@ -42,19 +36,15 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
 		Project project = Application.getInstance().getProject();
 		Element element = presentationElement.getActualElement();
 
+        if (presentationElement instanceof PartView) {
+            obj = partRenderer;
+            return ((SymbolDecorator) (obj));
+        }
 
         if (presentationElement instanceof HeaderShapeView/*ClassView*/) {
+
            	if (StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, BASIC_FUNCTION_BLOCK)) || 
            			StereotypesHelper.getStereotypes(element).contains(StereotypesHelper.getStereotype(project, COMPOSITE_FUNCTION_BLOCK))) {
-
-//                if (!presentationElements.contains(presentationElement)) {
-//                    objectSet.clear();
-//                    msg = new StringBuilder("\n\r");
-//                    logTrace(presentationElement, 1);
-//                    log(msg.toString());
-//                    presentationElements.add(presentationElement);
-//                }
-
            		obj = functionBlockRender;
            		addToCash(presentationElement, ((SymbolDecorator) (obj)));
            	}
@@ -93,16 +83,8 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
         return ((SymbolDecorator) (obj));
 	}
 
-    public void logTrace(PresentationElement presentationElement, int level) {
-        if (objectSet.contains(presentationElement)) {
-            return;
-        }
-        objectSet.add(presentationElement);
-        msg.append("LEVEL: " + level + " " + /*presentationElement.getHumanName() +*/ "\n\r");
-        logTrace(presentationElement.getParent(), level + 1);
-    }
-
 	private final ShapeDecorator functionBlockRender = new FunctionBlockRenderer();
+    private final ShapeDecorator partRenderer = new PartRenderer();
 	private final ShapeDecorator portRender = new PortRenderer();
 	private final ShapeDecorator initialStateRender = new InitialStateRender();
 	private final ShapeDecorator algorithmRender = new AlgorithmRender();
