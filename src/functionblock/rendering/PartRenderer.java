@@ -1,9 +1,7 @@
 package functionblock.rendering;
 
 import com.nomagic.magicdraw.uml.symbols.PresentationElement;
-import com.nomagic.magicdraw.uml.symbols.shapes.PartView;
-import com.nomagic.magicdraw.uml.symbols.shapes.ShapeDecorator;
-
+import com.nomagic.magicdraw.uml.symbols.shapes.*;
 import java.awt.*;
 
 /**
@@ -12,8 +10,6 @@ import java.awt.*;
 public class PartRenderer extends ShapeDecorator {
     @Override
     public void draw(Graphics graphics, PresentationElement presentationElement) {
-        PartView partView = (PartView) presentationElement;
-
         Rectangle r = presentationElement.getBounds();
         int x0 = r.x;
         int y0 = r.y;
@@ -27,5 +23,11 @@ public class PartRenderer extends ShapeDecorator {
                 y0 + 2 * yStep, y0 + 4 * yStep, y0 + 4 * yStep, y0 + 2 * yStep,
                 y0 + 2 * yStep, y0 + yStep, y0 + yStep };
         graphics.drawPolygon(xPoints, yPoints, 12);
+
+        for (PresentationElement pe : presentationElement.getPresentationElements()) {
+            if (pe.isVisible()) {
+                pe.draw(graphics);
+            }
+        }
     }
 }

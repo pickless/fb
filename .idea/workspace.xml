@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8be8bb1-975a-43fe-9ffc-138d039f18bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" afterPath="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java" afterPath="$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" afterPath="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FunctionBlock.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,21 +73,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PartRenderer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java">
+      <file leaf-file-name="FunctionBlockRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="58" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.6116303" vertical-offset="0" max-vertical-offset="963">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="28" column="0" selection-start="943" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunctionBlockRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java">
+      <file leaf-file-name="RendererProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="388" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+            <state line="18" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="1070" max-vertical-offset="2033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionBlockConstants.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="89" selection-start="2162" selection-end="2162" vertical-scroll-proportion="-0.1640706" vertical-offset="842" max-vertical-offset="1805">
               <folding />
             </state>
           </provider>
@@ -111,14 +118,14 @@
         <option value="$PROJECT_DIR$/src/functionblock/diagram/ECCDiagramActions.java" />
         <option value="$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java" />
         <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockLogger.java" />
-        <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" />
         <option value="$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java" />
         <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java" />
         <option value="$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java" />
         <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockPlugin.java" />
         <option value="$PROJECT_DIR$/src/functionblock/action/BasicFunctionBlockAction.java" />
-        <option value="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" />
+        <option value="$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java" />
         <option value="$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java" />
+        <option value="$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java" />
       </list>
     </option>
   </component>
@@ -602,15 +609,15 @@
       <workItem from="1389680701897" duration="7314000" />
       <workItem from="1389697253504" duration="6068000" />
       <workItem from="1389850405657" duration="4598000" />
-      <workItem from="1392622891333" duration="7432000" />
+      <workItem from="1392622891333" duration="17356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103232000" />
+    <option name="totallyTimeSpent" value="113156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -737,9 +744,7 @@
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="69" selection-start="1166" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1862">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,13 +846,6 @@
         <state line="520" column="16" selection-start="22309" selection-end="22309" vertical-scroll-proportion="0.33333334" vertical-offset="9350" max-vertical-offset="27816" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="84" selection-start="4273" selection-end="4273" vertical-scroll-proportion="0.5264797" vertical-offset="804" max-vertical-offset="1786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/action/CompositeFunctionBlockAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="0" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.46728972" vertical-offset="310" max-vertical-offset="1520">
@@ -918,7 +916,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="129" selection-start="2626" selection-end="2626" vertical-scroll-proportion="-0.21703011" vertical-offset="1216" max-vertical-offset="2375" />
+        <state line="64" column="129" selection-start="2626" selection-end="2626" vertical-scroll-proportion="-0.21703011" vertical-offset="1216" max-vertical-offset="2375">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/diagram/FunctionBlockDiagramDescriptor.java">
@@ -968,9 +968,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-0.18380062" vertical-offset="918" max-vertical-offset="1881">
+        <state line="5" column="28" selection-start="166" selection-end="166" vertical-scroll-proportion="0.09865005" vertical-offset="0" max-vertical-offset="963">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -979,17 +979,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/FunctionBlockRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="388" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+        <state line="28" column="0" selection-start="943" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/PartRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/functionblock/rendering/RendererProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="58" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.6116303" vertical-offset="0" max-vertical-offset="963">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="1070" max-vertical-offset="2033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionblock/plugin/FunctionBlockConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="89" selection-start="2162" selection-end="2162" vertical-scroll-proportion="-0.1640706" vertical-offset="842" max-vertical-offset="1805">
+          <folding />
         </state>
       </provider>
     </entry>

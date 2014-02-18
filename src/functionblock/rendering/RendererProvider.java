@@ -2,25 +2,20 @@ package functionblock.rendering;
 
 import com.nomagic.magicdraw.core.Application;
 import com.nomagic.magicdraw.core.Project;
+import com.nomagic.magicdraw.openapi.uml.ModelElementsManager;
+import com.nomagic.magicdraw.properties.Property;
 import com.nomagic.magicdraw.uml.symbols.AbstractSymbolDecoratorProvider;
 import com.nomagic.magicdraw.uml.symbols.DiagramPresentationElement;
 import com.nomagic.magicdraw.uml.symbols.PresentationElement;
 import com.nomagic.magicdraw.uml.symbols.SymbolDecorator;
 import com.nomagic.magicdraw.uml.symbols.paths.DependencyView;
 import com.nomagic.magicdraw.uml.symbols.paths.PathDecorator;
-import com.nomagic.magicdraw.uml.symbols.shapes.CommentView;
-import com.nomagic.magicdraw.uml.symbols.shapes.PortView;
-import com.nomagic.magicdraw.uml.symbols.shapes.ShapeDecorator;
-import com.nomagic.magicdraw.uml.symbols.shapes.StateView;
-import com.nomagic.magicdraw.uml.symbols.shapes.HeaderShapeView;
-import com.nomagic.magicdraw.uml.symbols.shapes.PartView;
+import com.nomagic.magicdraw.uml.symbols.shapes.*;
 import com.nomagic.uml2.ext.jmi.helpers.StereotypesHelper;
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Element;
 
 import functionblock.diagram.ECCDiagramDescriptor;
 import functionblock.diagram.FunctionBlockDiagramDescriptor;
-
-import static functionblock.plugin.FunctionBlockLogger.*;
 
 import static functionblock.plugin.FunctionBlockConstants.StereotypesConstants.*;
 
@@ -36,7 +31,7 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
 		Project project = Application.getInstance().getProject();
 		Element element = presentationElement.getActualElement();
 
-        if (presentationElement instanceof PartView) {
+        if (presentationElement instanceof PartView && isFunctionBlockPart(presentationElement)) {
             obj = partRenderer;
             return ((SymbolDecorator) (obj));
         }
@@ -82,6 +77,19 @@ public class RendererProvider extends AbstractSymbolDecoratorProvider {
         }
         return ((SymbolDecorator) (obj));
 	}
+
+    private boolean isFunctionBlockPart(PresentationElement presentationElement) {
+        for (PresentationElement pe : presentationElement.getPresentationElements()) {
+            if (pe instanceof PartHeaderView) {
+                PartHeaderView partHeaderView = (PartHeaderView) pe;
+                if (partHeaderView.getStereotypeLabel() != null && partHeaderView.getStereotypeLabel().getText() != null &&
+                        partHeaderView.getStereotypeLabel().getText().contains(FUNCTION_BLOCK)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
 	private final ShapeDecorator functionBlockRender = new FunctionBlockRenderer();
     private final ShapeDecorator partRenderer = new PartRenderer();

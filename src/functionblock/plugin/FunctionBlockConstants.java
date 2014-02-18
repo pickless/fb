@@ -62,6 +62,7 @@ public final class FunctionBlockConstants {
 	}
 
 	public final class StereotypesConstants {
+        public final static String FUNCTION_BLOCK = "Function Block";
 		public final static String FUNCTION_BLOCK_PROFILE = "Function Block Profile";
 
         public final static String FUNCTION_BLOCK_DIAGRAM = "Function Block Diagram";
